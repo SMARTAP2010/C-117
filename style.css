@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: rgb(38, 0, 255);
+    background-color: cornsilk;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 7s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {box-shadow: 2px 2px 38px rgb(255, 0, 0);}
+    14% {box-shadow: 2px 2px 38px rgb(255, 127, 0);}
+    28% {box-shadow: 2px 2px 38px rgb(255, 255, 0);}
+    42% {box-shadow: 2px 2px 38px rgb(81, 255, 0);}
+    56% {box-shadow: 2px 2px 38px rgb(0, 17, 255);}
+    70% {box-shadow: 2px 2px 38px rgb(119, 0, 255);}
+    84% {box-shadow: 2px 2px 38px rgb(157, 13, 214);}
+    100% {box-shadow: 2px 2px 38px rgb(255, 0, 0);}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
